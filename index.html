@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather forecast</title>
+</head>
+<body>
+    <div class="container">
+        <section id="search_box">
+            <i class="material-symbols-outlined">location_on</i>
+            <input type="text" placeholder="City..." id="city_box"/>
+            <button type="submit" onclick="getForecast()"><i class="material-symbols-outlined">search</i></button>
+        </section>
+        <section class="weather_info">
+            <figure>
+                <img src="imagenes/404.webp" alt="clima">
+            </figure>
+            <div class="data_section">
+                <div id="preciptation_box">
+                    Precipitation:
+                </div>
+                <div id="uv_box">
+                    uv_index:
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
